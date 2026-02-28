@@ -1,2 +1,8 @@
 Python3
 Flask
+pip install mysql-connector-python
+
+sql config:
+
+    mysql root pass = root
+    username = admin pass = admin
