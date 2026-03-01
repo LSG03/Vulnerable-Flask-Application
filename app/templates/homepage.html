@@ -11,7 +11,11 @@
 
     <p>Welcome back {{ username }}</p>
 
-    <button>Log out</button>
+    {% if username == "admin" %}
+    <p>SSH Password: root</p>
+    {% endif %}
+
+    <a href="{{ url_for('logout') }}"><button>Log out</button></a>
 
 </body>
 </html>

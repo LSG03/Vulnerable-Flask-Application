@@ -10,6 +10,3 @@ def db_connector():
     
     return db
 
-
-
-#1. mycursor.execute("CREATE DATABASE db")
