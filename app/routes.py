@@ -1,7 +1,7 @@
 from flask import Flask, redirect, request, session, url_for
 from flask import render_template
 
-from db import db_connector
+from .db import db_connector
 
 app = Flask(__name__)
 app.secret_key = "key"
